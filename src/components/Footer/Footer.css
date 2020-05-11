@@ -1,0 +1,52 @@
+h4,
+h6 {
+  color: white;
+}
+
+.social li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 24px;
+    color: #fff !important;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  
+  .lni-facebook-filled {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .lni-twitter-original {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .lni-instagram-original {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .lni-linkedin-original {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .footer {
+    background-image: linear-gradient(to right bottom, rgb(55, 53, 58, 0.940), rgba(68, 65, 73, 0.938)), url("../../e9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+  }
+  

@@ -1,0 +1,21 @@
+.navbar {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: .1rem;
+    font-family: arial;
+    font-style: bold;
+    display: flex;
+    justify-content: space-around;
+    background:rgb(5, 6, 112) !important;
+    color: #fff  !important;
+  }
+  
+  .navbar-brand {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  
+  .nav-link {
+    color:#fff !important;
+  }

@@ -1,0 +1,28 @@
+
+.responsibility {
+    font-size: 1.2rem !important;
+    padding: 2.5rem;
+    background: rgb(231, 227, 227);
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 56.25em) {
+    .responsibility {
+        padding: 2rem;
+    }
+  }
+  
+  .responsibility__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+  }
+  
+  @media only screen and (max-width: 56.25em) {
+    .responsibility__icon {
+        margin-bottom: 0;
+    }
+  }
