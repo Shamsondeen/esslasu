@@ -38,6 +38,13 @@ export default class Alumni extends Component {
 
         const { name, email, number, matric } = this.state
 
+        const form = await axios.post('https://quiet-earth-29164.herokuapp.com/api/alumnidata', {
+            name,
+            email,
+            number,
+            matric
+        })
+
     }
     render() {
         return (

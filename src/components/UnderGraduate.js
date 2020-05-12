@@ -38,6 +38,15 @@ export default class UnderGraduate extends Component {
         e.preventDefault()
 
         const { name, email, level, number, matric } = this.state
+
+        
+        const form = await axios.post('https://quiet-earth-29164.herokuapp.com/api/undergraduate', {
+            name,
+            email,
+            level,
+            number,
+            matric
+        })
     }
     render() {
         return (

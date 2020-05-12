@@ -41,6 +41,11 @@ class Contact extends Component {
         e.preventDefault()
 
         const { name, email, message } = this.state
+        const form = await axios.post('https://quiet-earth-29164.herokuapp.com/api/esslasu', {
+            name,
+            email,
+            message
+        })
 
     }
 
