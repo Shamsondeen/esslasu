@@ -58,7 +58,7 @@
 }
 
 @media only screen and (max-width: 37.5em) {
-    .heading-primary__sub {
+    .heading-primary__sub-1 {
         letter-spacing: .5rem;
     }
 }
