@@ -20,7 +20,7 @@ class Home extends Component {
            <Executives />
             {/* End Of Executives */}
             {/*Responbilities*/}
-            
+            <Responsibilties />
             {/*End Of Responsibilties*/}
             {/* News*/}
            <News />
