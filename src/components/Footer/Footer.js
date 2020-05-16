@@ -11,9 +11,17 @@ class Footer extends Component {
     }
 
     toggleModal() {
-        this.setState({
-            modalIsOpen: ! this.state.modalIsOpen
+        const { name, email, message } = this.state
+        if (name && email && message) {
+           this.setState({       
+                    modalIsOpen: true
         })
+          } else {
+            this.setState({       
+                modalIsOpen: false
+    })
+          }
+       
     }
     constructor() {
         super()
@@ -37,7 +45,7 @@ class Footer extends Component {
 
         const { name, email, message } = this.state
 
-        const form = await axios.post('/api/esslasu', {
+        const form = await axios.post('https://quiet-earth-29164.herokuapp.com/api/esslasu', {
             name,
             email,
             message
@@ -56,9 +64,9 @@ class Footer extends Component {
                                     <hr className="light" />
                                     <form className="form- m-top-30" onSubmit={this.handleSubmit}>
                                         <div className="form-group">
-                                            <input type="text" name="name" id placeholder="Name" className="form-control" className="input-field" onChange={this.handleChange} />
-                                            <input type="email" name="email" className="form-control" placeholder="Enter your Email" className="input-field" onChange={this.handleChange} />
-                                            <textarea name="message" className="form-control" className="input-field" placeholder="Your Suggestions" cols={20} rows={4} onChange={this.handleChange} />
+                                            <input type="text" name="name" id placeholder="Name" className="form-control" className="input-field" onChange={this.handleChange} required/>
+                                            <input type="email" name="email" className="form-control" placeholder="Enter your Email" className="input-field" onChange={this.handleChange} required/>
+                                            <textarea name="message" className="form-control" className="input-field" placeholder="Your Suggestions" cols={20} rows={4} onChange={this.handleChange} required/>
                                             <button type='submit' className="btn btn-primary text-center"  onClick={this.toggleModal.bind(this)}>SUBMIT</button>
                                             
                                         </div>

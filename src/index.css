@@ -3,9 +3,7 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
-  box-sizing: border-box;
 }
-
 
 
 
@@ -90,8 +88,8 @@ h5 {
 
 @media only screen and (max-width: 56.25em) {
   .logo {
-    width: 19rem !important;
-    height: 18rem !important;
+    width: 15rem !important;
+    height: 14rem !important;
   }
 }
 

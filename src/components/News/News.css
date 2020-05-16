@@ -86,3 +86,8 @@
     font-size: 10rem !important;
   
   }
+
+  .text-dark {
+    color: #1a1a1d !important;
+    font-size: 1.2rem;
+  }

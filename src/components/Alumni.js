@@ -5,14 +5,24 @@ import {Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
 
 
 export default class Alumni extends Component {
+
     state = {
-        modalIsOpen: false
+        modalIsOpen: false,
+        
     }
 
     toggleModal() {
-        this.setState({
-            modalIsOpen: ! this.state.modalIsOpen
+        const { name, email, number, matric } = this.state
+        if (name && email && number && matric) {
+           this.setState({       
+                    modalIsOpen: true
         })
+          } else {
+            this.setState({       
+                modalIsOpen: false
+    })
+          }
+       
     }
 
     constructor() {
@@ -60,19 +70,19 @@ export default class Alumni extends Component {
                                     <div>
                                         <div className="form-group">
                                             <label htmlFor="formGroupExampleInput">Name</label>
-                                            <input type="text" className="form-control" id="formGroupExampleInput" onChange={this.handleChange} name="name" />
+                                            <input type="text" className="form-control" id="formGroupExampleInput" onChange={this.handleChange} name="name" required/>
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="formGroupExampleInput2">Email</label>
-                                            <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="email" />
+                                            <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="email" required/>
                                         </div>
                                         <div className="form-group">
                                         <label htmlFor="formGroupExampleInput2">Phone Number</label>
-                                        <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="number" />
+                                        <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="number" required/>
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="formGroupExampleInput2">Matric Number</label>
-                                            <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="matric" />
+                                            <input type="text" className="form-control" id="formGroupExampleInput2" onChange={this.handleChange} name="matric" required/>
                                         </div>
                                         <button type='submit' className="btn btn-primary text-center mt-2" onClick={this.toggleModal.bind(this)}>SUBMIT</button>
                                     </div>

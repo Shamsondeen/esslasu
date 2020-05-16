@@ -15,9 +15,17 @@ class Contact extends Component {
     }
 
     toggleModal() {
-        this.setState({
-            modalIsOpen: ! this.state.modalIsOpen
+        const { name, email, message } = this.state
+        if (name && email && message) {
+           this.setState({       
+                    modalIsOpen: true
         })
+          } else {
+            this.setState({       
+                modalIsOpen: false
+    })
+          }
+       
     }
     
     constructor() {
@@ -114,7 +122,7 @@ class Contact extends Component {
                                                 <div className="form-input mt-25">
                                                     <label>Name</label>
                                                     <div className="input-items default">
-                                                        <input type='name' name="name" type="text" placeholder="Name" onChange={this.handleChange} />
+                                                        <input type='name' name="name" type="text" placeholder="Name" onChange={this.handleChange} required/>
                                                         <i className="lni lni-user" />
                                                     </div>
                                                 </div>
@@ -123,7 +131,7 @@ class Contact extends Component {
                                                 <div className="form-input mt-25">
                                                     <label>Email</label>
                                                     <div className="input-items default">
-                                                        <input type="email" name="email" placeholder="Email" onChange={this.handleChange} />
+                                                        <input type="email" name="email" placeholder="Email" onChange={this.handleChange} required/>
                                                         <i className="lni lni-envelope" />
                                                     </div>
                                                 </div>
@@ -132,7 +140,7 @@ class Contact extends Component {
                                                 <div className="form-input mt-25">
                                                     <label>Massage</label>
                                                     <div className="input-items default">
-                                                        <textarea type='textarea' name="message" placeholder="Message" defaultValue={""} onChange={this.handleChange} />
+                                                        <textarea type='textarea' name="message" placeholder="Message" defaultValue={""} onChange={this.handleChange} required/>
                                                         <i className="lni lni-pencil-alt" />
                                                     </div>
                                                 </div>

@@ -32,7 +32,7 @@ const About = () => {
     <h1 className="text-center">
       VISION
     </h1>
-    <p className="text-center">Bring inspiration and innovation to every engineers student and to be widely known for dominance and excellence</p>
+    <p className="text-center">Bring inspiration and innovation to every engineering student and to be widely known for dominance and excellence</p>
   </div>
   <div className="col-md-12 mt-4">
     <h1 className="text-center">

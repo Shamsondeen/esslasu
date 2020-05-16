@@ -2,6 +2,7 @@
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgb(236, 236, 240), #5d4cf5ab), url('../../bg.jpg')!important;
     background-size: cover;
+    width: 100%;
     background-position: top;
     position: relative;
   }
@@ -25,8 +26,7 @@
     display: block;
     font-size: 6rem;
     font-weight: 300;
-    letter-spacing: 4rem;
-    animation: moveInLeft 1s ease-out;
+    letter-spacing: 2rem;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -40,12 +40,12 @@
     display: block;
     font-size: 1.9rem;
     font-weight: 700;
-    letter-spacing: 1rem;
+    letter-spacing: .7rem;
 }
 
 @media only screen and (max-width: 37.5em) {
     .heading-primary__sub {
-        letter-spacing: .5rem;
+        letter-spacing: 0rem;
     }
 }
 
@@ -59,6 +59,6 @@
 
 @media only screen and (max-width: 37.5em) {
     .heading-primary__sub-1 {
-        letter-spacing: .5rem;
+        letter-spacing: 0rem;
     }
 }
