@@ -75,7 +75,7 @@ class Parliament extends Component {
                                             </div>{/*end img*/}
                                             <div className="post-content bg-white rounded shadow p-2 position-relative">
                                                 <h2 className="mb-2 text-center"><a className="post-title">AYINDE AYOMIDE</a></h2>
-                                                <h3 className='text-center'>DEPUTY SPEAKER ESPC
+                                                <h3 className='text-center'>DEPUTY SPEAKER
                                                 </h3>
                                             </div></div>
                                     </div>
@@ -90,7 +90,7 @@ class Parliament extends Component {
                                             </div>{/*end img*/}
                                             <div className="post-content bg-white rounded shadow p-2 position-relative">
                                                 <h2 className="mb-2 text-center"><a className="post-title">HASSAN ABDULRAHMAN</a></h2>
-                                                <h4 className='text-center'>CHIEF WHIP ESPC
+                                                <h4 className='text-center'>CHIEF WHIP
                                                 </h4>
                                             </div></div>
                                     </div>
@@ -105,7 +105,7 @@ class Parliament extends Component {
                                             </div>{/*end img*/}
                                             <div className="post-content bg-white rounded shadow p-2 position-relative">
                                                 <h3 className=" text-center"><a className="post-title">AKINMULEYA DAMILOLA</a></h3>
-                                                <h4 className='text-center'>CLERK ESPC
+                                                <h4 className='text-center'>CLERK
                                                 </h4>
                                             </div></div>
                                     </div>

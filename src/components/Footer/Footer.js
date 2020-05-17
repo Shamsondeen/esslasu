@@ -98,7 +98,7 @@ class Footer extends Component {
                                 </ul>
 
                                 <hr className="light-100" />
-                                <h4><i className="far fa-lightbulb" /> POWERED BY DAVID OLUWADAMILARE IBRAHIM</h4>
+                                <h4><i className="far fa-lightbulb" /> POWERED BY 2020/21 ESSLASU EXECUTIVES</h4>
                             </div>
                         </div>
                     </div>
