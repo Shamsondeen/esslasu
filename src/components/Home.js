@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header/Header';
 import Executives from './Executives/Executives';
+import Announcement from './SpecialAnnouncement/SpecialAnnouncement';
 import Parliament from './Parliament/Parliament';
 import Responsibilties from './Responsibilities/Resbonsibilities';
 import News from './News/News';
@@ -17,6 +18,8 @@ class Home extends Component {
         return (
             <React.Fragment>
            <Header />
+           {/*Announcement*/}
+           <Announcement />
             {/*Executives*/}
            <Executives />
             {/* End Of Executives */}
