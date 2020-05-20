@@ -107,4 +107,6 @@
     font-weight: 700;
     color: rgb(5, 6, 112);
     text-transform: uppercase;
+    text-align: center !important;
+    display: block !important;
   }

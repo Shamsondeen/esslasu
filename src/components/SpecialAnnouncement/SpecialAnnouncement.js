@@ -43,14 +43,14 @@ function SpecialAnnouncement(props) {
                 <div className="col-lg-6 col-md-6 col-12 mt-4 pt-2">
                   <article className="post">
                     <div className="post-preview overflow-hidden">
-                      <a href="http://shreethemes.in/bizzcane/#"><img src={Rahina} alt="blog-img" className="img-fluid mx-auto d-block rounded" /></a>
+                      <a><img src={Rahina} alt="blog-img" className="img-fluid mx-auto d-block rounded" /></a>
                       <div className="tag"><a className="btn btn-custom rounded btn-sm"><i className="fas fa-tag mr-2" /> Investment</a></div>
                     </div>{/*end img*/}
                     <div className="post-content-1 bg-white rounded shadow p-4 position-relative">
                       <ul className="post-meta list-unstyled list-inline mb-3">
                         <li className="list-inline-item"><i className="far fa-calendar-check mr-2" />May 19th, 2020</li>
                       </ul>
-                      <h4 className="mb-3"><a className="news-title text-dark">FROM THE PRESIDENT'S OFFICE</a></h4>
+                      <h4 className="mb-3"><a className="news-title"> ARISE!!!</a></h4>
                       <p className="text-black mb-0">On grounds of progressiveness, ESS-LASU presents to the world, HER very first online seminar and a four (4) day Life training and skill Aquisition event, themed  ARISE!!!<br/>
                       from Wednesday 3rd of June 2020--Saturday 6th of June 2020<br/>
                       Day one (1) will be a seminar on personal development. All other days are for training 
@@ -68,7 +68,7 @@ function SpecialAnnouncement(props) {
                 <div className="col-lg-6 col-md-6 col-12 mt-4 pt-2">
                   <article className="post">
                     <div className="post-preview overflow-hidden">
-                      <a href="http://shreethemes.in/bizzcane/#"><img src={Sunday} alt="blog-img" className="img-fluid mx-auto d-block rounded" /></a>
+                      <a><img src={Sunday} alt="blog-img" className="img-fluid mx-auto d-block rounded" /></a>
                       <div className="tag"><a className="btn btn-custom rounded btn-sm"><i className="fas fa-tag mr-2" /> Investment</a></div>
                     </div>{/*end img*/}
                     <div className="post-content-1 bg-white rounded shadow p-4 position-relative">
@@ -77,10 +77,9 @@ function SpecialAnnouncement(props) {
                         <li className="list-inline-item"><i className="far fa-calendar-check mr-2" />May 19th, 2020</li>
                       </ul>
                       
-                      <h4 className="mb-3"><a className="news-title text-dark">FROM THE PRESIDENT'S OFFICE</a></h4>
+                      <h4 className="mb-3"><a className="news-title text-center">ARISE FEATURES;</a></h4>
                      
-                      <p className="text-black mb-0">THE FEATURES;<br/> 
-                      
+                      <p className="text-black mb-0">
                       ●The emphasis is to skill the youths in such a way that they get employment and also improve common sense.<br/>
                       ●Provides training, support and guidance against the after effect of COVID 19 VIRUS,<br/>
                       ●More emphasis will be given on various other sectors, where skill development is inadequate or nil.<br/>
